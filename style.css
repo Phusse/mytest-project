@@ -1,0 +1,33 @@
+form{
+    margin: auto;
+}
+#error{
+    display: none;
+    color: red;
+}
+#error2{
+    display: none;
+    color: red;
+}
+#valid{
+    display: none;
+    color: green;
+}
+input{
+    width: 35%;
+}
+label{
+    font-size: 30px;
+}
+button{
+    font-size: 17px;
+}
+input::placeholder{
+    font-size: 15px;
+    font-weight: 900;
+}
+fieldset{
+    margin: auto;
+    width: 30%;
+    border: 2px solid black;
+}
