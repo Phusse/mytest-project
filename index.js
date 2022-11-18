@@ -11,7 +11,6 @@ function showError(){
         error.style.display = "block"
         secError.style.display = "none"
         valid.style.display = "none"
-
     }
     else if(reg.value[0] != "R") {
         secError.style.display = "block"
@@ -19,11 +18,9 @@ function showError(){
         valid.style.display = "none"
 
     }else{
+        valid.style.display = "block"
         error.style.display = "none"
         secError.style.display = "none"
         reg.value = ""
-        valid.style.display = "block"
     }
 }
-
-
